@@ -215,9 +215,9 @@
   <h1>Resistor Calculator Ω</h1>
   <div class="calculator">
     <div class="selection">
-      <section class="container">
+      <section class="container" >
         <h2>Band 1</h2>
-        <div id="color0" class="bands">
+        <div id="color0" class="bands" color0Click>
           <div class="box black">black</div>
           <div class="box brown">brown</div>
           <div class="box red">red</div>
@@ -232,7 +232,7 @@
       </section>
       <section class="container">
         <h2>Band 2</h2>
-        <div id="color1" class="bands">
+        <div id="color1" class="bands" color1Click>
           <div class="box black">black</div>
           <div class="box brown">brown</div>
           <div class="box red">red</div>
@@ -247,7 +247,7 @@
       </section>
       <section class="container">
         <h2>Multiplier</h2>
-        <div id="color2" class="bands">
+        <div id="color2" class="bands" color2Click>
           <div class="box black">black</div>
           <div class="box brown">brown</div>
           <div class="box red">red</div>
@@ -264,7 +264,7 @@
       </section>
       <section class="container">
         <h2>Tolerance</h2>
-        <div id="color3" class="bands">
+        <div id="color3" class="bands" color3Click>
           <div class="box brown">brown</div>
           <div class="box red">red</div>
           <div class="box green">green</div>
@@ -287,7 +287,7 @@
         </div>
         <div class="wire wire--2"></div>
       </div>
-      <div class="answer">Resistor value: 250M Ohms ±5%</div>
+      <div id="answerString" class="answer">Resistor value: 250M Ohms ±5%</div>
     </div>
   </div>
   <script src="index.js" type="module"></script>
